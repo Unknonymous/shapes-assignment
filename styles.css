@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#wrapper{
+    width: 1000px;
+    height: auto;
+    border: solid 3px red;
+    padding: 20px;
+    background-color: lightgreen;
+}
+#square{
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    color: green;
+    display: inline-block;
+}
+#circle{
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    border-radius: 100px;
+    display: inline-block;
+}
+#triangle{
+    margin: 20px;
+    height: 0px;
+    width: 0px;
+    border-bottom: solid 200px gray;
+    border-left: solid 100px transparent; /*option 1 is to make the side-borders transparent*/
+    border-right: solid 100px lightgreen; /*option 2 is to make the side-borders match the background color of the parent element */
+    display: inline-block;
+}
+#pacman{
+    margin: 20px;
+    height: 0px;
+    width: 0px;
+    border-top: solid 100px blue;
+    border-bottom: solid 100px blue;
+    border-left: solid 100px blue;
+    border-right: solid 100px transparent;
+    border-radius: 100px;
+    display: inline-block;
+
+}
